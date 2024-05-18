@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: esercizio-hibernate
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/Spring
+        username: root
+        password: admin
+        driver-class: com.mysql.cj.jdbc.Driver
+    jpa:
+        database: mysql
+        show_sql: true
+        hibernate:
+            ddl-auto: create-drop
