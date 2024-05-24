@@ -20,6 +20,6 @@ public class Enrollment {
     @ManyToOne
     private Class classroom;
 
-    @ManyToMany
-    private List<Student> students;
+    @ManyToOne
+    private Student student;
 }
